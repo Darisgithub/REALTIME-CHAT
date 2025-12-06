@@ -77,18 +77,21 @@ realtime-chat/
 - npm atau yarn
 
 ### Setup Backend
-
-1. Masuk ke direktori backend:
+1. clone repository ini
+```bash
+git clone https://github.com/Darisgithub/REALTIME-CHAT.git
+```
+2. Masuk ke direktori backend:
 ```bash
 cd backend
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Konfigurasi environment variables (file `.env` sudah dibuat):
+4. Konfigurasi environment variables (file `.env` sudah dibuat):
 ```env
 PORT=5000
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
@@ -97,7 +100,7 @@ NODE_ENV=development
 
 4. Jalankan server backend:
 ```bash
-npm run dev
+npm start
 ```
 
 Server backend akan berjalan di `http://localhost:5000`
